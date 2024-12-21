@@ -191,3 +191,64 @@ h1 {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 
 }
+
+#section-quote {
+    top: 1093px; 
+    height: 392px;
+    align-content: center;
+    align-self: center;
+    padding: 150px 350px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #c271ff;
+    color: #ffff;
+    position:absolute;
+  }
+  
+  #section-quote img {
+    top: 1176px;
+    left: 142px;
+  }
+  
+  #section-quote blockquote {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 20px;
+  
+  }
+  
+  #quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  #quote h3 {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+  #quote p {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+  
