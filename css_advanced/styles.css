@@ -251,4 +251,145 @@ h1 {
     text-decoration-skip-ink: none;
   }
   
+  #section-tutorials {
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    top: 1472px;
+    position: absolute;
+    height: 450px;
+    left: 106px;
+    width: 1228px;
+  }
   
+  #section-tutorials h2 {
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 40.22px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+  #section-tutorials h2 span {
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.22px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #c271ff;
+  }
+  
+  #videos {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .video {
+    width: 255px;
+    height: 335px;
+    position: relative;
+  }
+  
+  .video::before {
+    content: url(images/play.png);
+    width: 64px;
+    height: 64px;
+    top: 10%;
+    left: 40%;
+    position: absolute;
+  
+  }
+  
+  .video h3 {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 15px 10px;
+  
+  }
+  
+  .video p {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 0 15px;
+  }
+  
+  .video-author {
+    color: #c271ff;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  .video-author img {
+    width: 30px;
+    height: 30px;
+  
+  }
+  
+  .video-author h4 {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+  .five-star {
+    display: flex;
+    gap: 10px;
+    padding: 0 15px;
+    width: 107px;
+    height: 15px;
+    color: #c271ff;
+  }
+  
+  .five-star i {
+    width: 15px;
+    height: 15px;
+  
+  }
+  
+  .video-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 5px 0; */
+  
+  }
+  
+  .video-footer p {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #c271ff;
+  }
+  
+  .five-star-last-child {
+    color: #d8d8d8;
+  
+  }
+   
